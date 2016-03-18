@@ -1,0 +1,129 @@
+
+.page_blank {
+	background-color            : #efeff4;
+}
+.page_white {
+	background-color            : #ffffff;
+}
+.pages {
+	width                       : 100%;
+	height                      : auto;
+	position                    : relative;  /*  absolute  relative  */
+	visibility                  : hidden;
+	overflow                    : hidden;
+}
+.pages-content {
+	position                    : relative;  /*  absolute  relative  */
+	overflow                    : hidden;
+}
+.pages-content > div {
+	float                       : left;/**/
+}
+.page {
+	width                       : 100%;
+	height                      : auto;
+	position                    : relative;  /*  absolute  relative  */
+	overflow                    : hidden;
+	top                         : 0px;
+	valign                      : middle;
+	vertical-align              : middle;
+	align                       : center;
+	text-align                  : center;
+}
+.header_hide {
+	overflow                    : hidden;
+	position                    : relative;
+	left                        : 0px;
+	top                         : 0px;
+	width                       : 100%;
+	height                      : 45px;
+	z-index                     : 1;
+	line-height                 : 50px;
+	font-size                   : 24px;
+	valign                      : middle;
+	vertical-align              : middle;
+	align                       : center;
+	text-align                  : center;
+	text-color                  : #000000;
+	background-color            : #ffffff;
+}
+.header_hide h1 {
+	width                       : 100%;
+	height                      : 45px;
+}
+.header {
+	position                    : fixed;
+	left                        : 0px;
+	top                         : 0px;
+	width                       : 100%;
+	height                      : 45px;
+	z-index                     : 3000;
+	line-height                 : 50px;
+	font-size                   : 24px;
+	valign                      : middle;
+	vertical-align              : middle;
+	align                       : center;
+	text-align                  : center;
+	text-color                  : #000000;
+	background-color            : #ffffff;
+	border-bottom               : 1px solid #979797;
+}
+.header h1 {
+	width                       : 100%;
+	height                      : 45px;
+	float                       : center;
+	font-size                   : 24px;
+	text-align                  : center;
+	text-color                  : #000000;
+}
+.header img {
+	width                       : 26px;
+	height                      : 26px;
+	padding-top                 : 10px;
+}
+.header .left {
+	width                       : 50px;
+	height                      : 45px;
+	float                       : left;
+}
+.header .right {
+	width                       : 50px;
+	height                      : 45px;
+	float                       : right;
+}
+.header .back {
+	width                       : 50px;
+	height                      : 45px;
+	float                       : left;
+}
+.header .back img {
+	width                       : 16px;
+	height                      : 26px;
+	padding-top                 : 12px;
+}
+.page .content {
+	margin                      : 0 0;
+	position                    : relative;
+	overflow                    : auto;
+	-webkit-overflow-scrolling  : touch;
+}
+.page p {
+	height                      : 25px;
+	align                       : center;
+	text-align                  : center;
+}
+.page .title {
+	height                      : 55px;
+	align                       : center;
+	text-align                  : center;
+}
+.page .title img {
+	width                       : 45px;
+	height                      : 45px;
+}
+.page .info {
+	height                      : 30px;
+	align                       : center;
+	text-align                  : center;
+	font-size                   : 16px;
+}

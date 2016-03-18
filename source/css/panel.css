@@ -1,0 +1,237 @@
+.zdz_panel {
+	background-color            : #FFFFFF;
+	margin-top                  : 10px;
+	position                    : relative;
+	overflow                    : hidden;
+	align                       : left;
+	text-align                  : left;
+	valign                      : bottom;
+	vertical-align              : bottom;
+}
+.zdz_panel:first-child {
+	margin-top                  : 0;
+}
+.zdz_panel:before {
+	content                     : " ";
+	position                    : absolute;
+	left                        : 0;
+	top                         : 0;
+	width                       : 100%;
+	height                      : 1px;
+	border-top                  : 1px solid #E5E5E5;
+	color                       : #E5E5E5;
+	-webkit-transform-origin    : 0 0;
+	        transform-origin    : 0 0;
+	-webkit-transform           : scaleY(0.5);
+	        transform           : scaleY(0.5);
+}
+.zdz_panel:after {
+	content                     : " ";
+	position                    : absolute;
+	left                        : 0;
+	bottom                      : 0;
+	width                       : 100%;
+	height                      : 1px;
+	border-bottom               : 1px solid #E5E5E5;
+	color                       : #E5E5E5;
+	-webkit-transform-origin    : 0 100%;
+	        transform-origin    : 0 100%;
+	-webkit-transform           : scaleY(0.5);
+	        transform           : scaleY(0.5);
+}
+.zdz_panel_hd {
+	padding                     : 14px 15px 10px;
+	color                       : #999999;
+	font-size                   : 13px;
+	position                    : relative;
+	align                       : left;
+	text-align                  : left;
+	valign                      : bottom;
+	vertical-align              : bottom;
+}
+.zdz_panel_hd:after {
+	content                     : " ";
+	position                    : absolute;
+	left                        : 0;
+	bottom                      : 0;
+	width                       : 100%;
+	height                      : 1px;
+	border-bottom               : 1px solid #E5E5E5;
+	color                       : #E5E5E5;
+	-webkit-transform-origin    : 0 100%;
+	        transform-origin    : 0 100%;
+	-webkit-transform           : scaleY(0.5);
+	        transform           : scaleY(0.5);
+	left                        : 15px;
+}
+.zdz_panel_ft {
+	padding                     : 10px 15px 12px;
+	color                       : #999999;
+	font-size                   : 14px;
+	position                    : relative;
+}
+.zdz_panel_ft:before {
+	content                     : " ";
+	position                    : absolute;
+	left                        : 0;
+	top                         : 0;
+	width                       : 100%;
+	height                      : 1px;
+	border-top                  : 1px solid #E5E5E5;
+	color                       : #E5E5E5;
+	-webkit-transform-origin    : 0 0;
+	        transform-origin    : 0 0;
+	-webkit-transform           : scaleY(0.5);
+	        transform           : scaleY(0.5);
+	left                        : 15px;
+}
+.zdz_panel_access .zdz_panel_ft {
+	display                     : block;
+	color                       : #586C94;
+	-webkit-tap-highlight-color : rgba(0, 0, 0, 0);
+}
+.zdz_panel_access .zdz_panel_ft:active {
+	background-color            : #ECECEC;
+}
+.zdz_panel_access .zdz_panel_ft:after {
+	content                     : " ";
+	display                     : inline-block;
+	-webkit-transform           : rotate(45deg);
+	        transform           : rotate(45deg);
+	height                      : 6px;
+	width                       : 6px;
+	border-width                : 2px 2px 0 0;
+	border-color                : #C7C7CC;
+	border-style                : solid;
+	position                    : relative;
+	top                         : -2px;
+	position                    : absolute;
+	right                       : 15px;
+	top                         : 50%;
+	margin-top                  : -4px;
+}
+.zdz_media_box {
+	padding                     : 15px;
+	position                    : relative;
+}
+.zdz_media_box:before {
+	content                     : " ";
+	position                    : absolute;
+	left                        : 0;
+	top                         : 0;
+	width                       : 100%;
+	height                      : 1px;
+	border-top                  : 1px solid #E5E5E5;
+	color                       : #E5E5E5;
+	-webkit-transform-origin    : 0 0;
+	        transform-origin    : 0 0;
+	-webkit-transform           : scaleY(0.5);
+	        transform           : scaleY(0.5);
+	left                        : 15px;
+}
+.zdz_media_box:first-child:before {
+	display                     : none;
+}
+a.zdz_media_box {
+	color                       : #000000;
+	-webkit-tap-highlight-color : rgba(0, 0, 0, 0);
+}
+a.zdz_media_box:active {
+	background-color            : #ECECEC;
+}
+.zdz_media_box .zdz_media_title {
+	font-weight                 : 400;
+	font-size                   : 17px;
+	width                       : auto;
+	overflow                    : hidden;
+	text-overflow               : ellipsis;
+	white-space                 : nowrap;
+	word-wrap                   : normal;
+	word-wrap                   : break-word;
+	word-break                  : break-all;
+	align                       : left;
+	text-align                  : left;
+	valign                      : bottom;
+	vertical-align              : bottom;
+}
+.zdz_media_box .zdz_media_desc {
+	color                       : #999999;
+	font-size                   : 13px;
+	line-height                 : 1.2;
+	width                       : auto;
+	height                      : auto;
+	/*overflow                    : hidden;*/
+	text-overflow               : ellipsis;
+	display                     : -webkit-box;
+	-webkit-box-orient          : vertical;
+	-webkit-line-clamp          : 2;
+	align                       : left;
+	text-align                  : left;
+	valign                      : bottom;
+	vertical-align              : bottom;
+}
+.zdz_media_box.zdz_media_text .zdz_media_title {
+	margin-bottom               : 8px;
+	align                       : left;
+	text-align                  : left;
+	valign                      : bottom;
+	vertical-align              : bottom;
+}
+.zdz_media_box.zdz_media_text .zdz_media_info {
+	margin-top                  : 15px;
+	padding-bottom              : 5px;
+	font-size                   : 13px;
+	color                       : #CECECE;
+	line-height                 : 1em;
+	list-style                  : none;
+	overflow                    : hidden;
+	align                       : left;
+	text-align                  : left;
+	valign                      : bottom;
+	vertical-align              : bottom;
+}
+.zdz_media_box.zdz_media_text .zdz_media_info_meta {
+	float                       : left;
+	padding-right               : 1em;
+}
+.zdz_media_box.zdz_media_text .zdz_media_info_meta.zdz_media_info_meta_extra {
+	padding-left                : 1em;
+	border-left                 : 1px solid #CECECE;
+}
+.zdz_media_box.zdz_media_appmsg {
+	display                     : -webkit-box;
+	display                     : -webkit-flex;
+	display                     : -ms-flexbox;
+	display                     : flex;
+	-webkit-box-align           : center;
+	-webkit-align-items         : center;
+	-ms-flex-align              : center;
+	align-items                 : center;
+}
+.zdz_media_box.zdz_media_appmsg .zdz_media_hd {
+	margin-right                : .8em;
+	width                       : 60px;
+	height                      : 60px;
+	line-height                 : 60px;
+	text-align                  : center;
+}
+.zdz_media_box.zdz_media_appmsg .zdz_media_appmsg_thumb {
+	width                       : 100%;
+	max-height                  : 100%;
+	vertical-align              : middle;
+}
+.zdz_media_box.zdz_media_appmsg .zdz_media_bd {
+	-webkit-box-flex            : 1;
+	-webkit-flex                : 1;
+	-ms-flex                    : 1;
+	flex                        : 1;
+}
+.zdz_media_box.zdz_media_small_appmsg {
+	padding                     : 0;
+}
+.zdz_media_box.zdz_media_small_appmsg .zdz_cells {
+	margin-top                  : 0;
+}
+.zdz_media_box.zdz_media_small_appmsg .zdz_cells:before {
+	display                     : none;
+}

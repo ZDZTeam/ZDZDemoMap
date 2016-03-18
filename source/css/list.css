@@ -1,0 +1,277 @@
+
+.list {
+	background-color            : #ffffff;
+}
+.list p {
+	height                      : 25px;
+	align                       : center;
+	text-align                  : center;
+}
+.list ul li {
+	width                       : 98%;
+	height                      : 35px;
+	line-height                 : 35px;
+	align                       : left;
+	text-align                  : left;
+	valign                      : bottom;
+	vertical-align              : bottom;
+}
+.list table {
+	width                       : 98%;
+}
+.list table tr td {
+	height                      : 35px;
+	line-height                 : 35px;
+	align                       : left;
+	text-align                  : left;
+	valign                      : bottom;
+	vertical-align              : bottom;
+	word-break                  : normal;
+}
+.list canvas {
+	width                       : 25px;
+	height                      : 25px;
+	padding-top                 : 5px;
+}
+.list img {
+	width                       : 25px;
+	height                      : 25px;
+	padding-top                 : 5px;
+}
+.list input {
+	width                       : 80%;
+	height                      : 100%;
+	font-size                   : 18px !important;
+}
+.list #agree {
+	width                       : 15px;
+	height                      : 15px;
+	line-height                 : 15px;
+	valign                      : middle;
+	vertical-align              : middle;
+	margin-top                  : -5px;
+	padding                     : 0;
+}
+.list .blank {
+	height                      : 38px;
+	align                       : center;
+	text-align                  : center;
+}
+.list .blank_left {
+	height                      : 38px;
+	align                       : left;
+	text-align                  : left;
+}
+.list .blank_small {
+	height                      : 10px;
+	align                       : center;
+	text-align                  : center;
+}
+.list .section {
+	height                      : 50px;
+	padding-left                : 10px;
+	align                       : left;
+	valign                      : bottom;
+	vertical-align              : bottom;
+	display                     : table-cell;
+}
+.list .section span {
+	align                       : left;
+	text-align                  : left;
+	font-size                   : 18px !important;
+}
+.list .banner {
+	top                         : 0px;
+	margin                      : 0 0;
+	width                       : 100%;
+	height                      : auto;
+	position                    : relative;  /*  absolute  relative  */
+}
+.list .banner img {
+	width                       : 100%;
+	height                      : auto;
+	padding-top                 : 0px;
+}
+.list .logo {
+	width                       : 100%;
+	height                      : auto;
+	position                    : relative;  /*  absolute  relative  */
+}
+.list .logo img {
+	width                       : 80%;
+	height                      : auto;
+}
+.list .tx {
+	width                       : 100%;
+	height                      : auto;
+	position                    : relative;  /*  absolute  relative  */
+}
+.list .tx img {
+	width                       : 121px;
+	height                      : 121px;
+}
+.list .name {
+	align                       : center;
+	text-align                  : center;
+	valign                      : middle;
+	vertical-align              : middle;
+	font-size                   : 22px !important;
+	height                      : 55px;
+	line-height                 : 55px;
+	border-top                  : 1px solid #0099e8;
+}
+.list .info {
+	font-size                   : 18px !important;
+	height                      : 35px;
+	color                       : #B1B1B5;
+}
+.list .info_link {
+	font-size                   : 18px !important;
+	height                      : 35px;
+	color                       : #0099E8;
+}
+.list .addr {
+	font-size                   : 18px !important;
+	height                      : 35px;
+	border-bottom               : 1px solid #0099e8;
+}
+.list .line, .list .lines, .list .input-line {
+	margin                      : auto;
+	padding-left                : 10px;
+	padding-top                 : 10px;
+	border-bottom               : 1px solid #979797;
+}
+.list .lines {
+	height                      : 50px;
+	line-height                 : 50px;
+}
+.list .icon {
+	float                       : left;
+	padding-left                : 10px;
+}
+.list .icon_fix {
+	float                       : left;
+	padding-left                : 10px;
+	width                       : 25px;
+	align                       : center;
+	text-align                  : center;
+}
+.list .icon span, .list .icon_fix span {
+	width                       : 50%;
+	height                      : 20px;
+	line-height                 : 20px;
+	padding-left                : 8px;
+	align                       : center;
+	text-align                  : center;
+	color                       : #B1B1B5;
+	font-size                   : 14px !important;
+	white-space                 : nowrap;
+	text-overflow               : ellipsis;
+	-o-text-overflow            : ellipsis;
+	overflow                    : hidden;
+}
+.list .more {
+	float                       : right;
+	padding-right               : 10px;
+}
+.list .split {
+	float                       : right;
+	width                       : 15px;
+}
+.list .vcode {
+	float                       : right;
+	padding-right               : 10px;
+	padding-top                 : 0px;
+	color                       : #0099e8;
+}
+.list .field {
+	width                       : 50%;
+	padding-left                : 10px;
+	align                       : left;
+	text-align                  : left;
+}
+.list .field_large {
+	width                       : 80%;
+	padding-left                : 10px;
+	align                       : left;
+	text-align                  : left;
+}
+.list .blank .field {
+	color                       : #B1B1B5;
+	width                       : 100%;
+}
+.list .blank_left .field {
+	color                       : #B1B1B5;
+	width                       : 100%;
+}
+.list .input-line .icon input {
+	width                       : 20%;
+	height                      : 100%;
+	font-size                   : 18px !important;
+}
+.list .input-line .phone input {
+	width                       : 45%;
+	height                      : 100%;
+	font-size                   : 18px !important;
+}
+.list .input-line .field input {
+	width                       : 60%;
+	height                      : 100%;
+	font-size                   : 18px !important;
+}
+.list .lines img {
+	padding-top                 : 22px;
+}
+.list .lines .field {
+	height                      : 45px;
+	line-height                 : 45px;
+	padding-left                : 10px;
+}
+.list .detail {
+	width                       : 50%;
+	height                      : 20px;
+	line-height                 : 20px;
+	padding-left                : 0px;
+	color                       : #B1B1B5;
+	font-size                   : 14px !important;
+	white-space                 : nowrap;
+	text-overflow               : ellipsis;
+	-o-text-overflow            : ellipsis;
+	overflow                    : hidden;
+}
+.list .detail_fix {
+	width                       : 50%;
+	height                      : 20px;
+	line-height                 : 20px;
+	padding-left                : 0px;
+	color                       : #B1B1B5;
+	font-size                   : 14px !important;
+	word-break                  : normal;
+}
+.list .block {
+	width                       : 95%;
+	height                      : 80px;
+	border                      : 0px;
+}
+.list .block td {
+	height                      : 80px;
+	line-height                 : 80px;
+	valign                      : middle;
+	vertical-align              : middle;
+}
+.list .block .icon {
+	width                       : 35%;
+	align                       : center;
+	text-align                  : center;
+}
+.list .block .icon img {
+	width                       : 64px;
+	height                      : 64px;
+}
+.list .block .field {
+	width                       : 65%;
+	color                       : #181818;
+	font-size                   : 24px;
+	align                       : left;
+	text-align                  : left;
+}

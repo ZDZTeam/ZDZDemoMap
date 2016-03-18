@@ -1,0 +1,187 @@
+.roundBtn {
+	width                       : 95%;
+	height                      : 35px;
+	margin-top                  : 5px;
+	color                       : #FFFFFF;
+	font-size                   : 20px !important;
+	outline                     : 0;
+	border                      : 0px;
+	background                  : #0099e8;
+	-webkit-border-radius       : 10px;
+	-moz-border-radius          : 10px;
+	border-radius               : 10px;
+	border-style                : solid;
+	border-width                : 1px;
+	border-color                : #0099e8;
+}
+.hroundBtn {
+	width                       : 35%;
+	height                      : 35px;
+	margin-left                 : auto;
+	margin-right                : auto;
+	margin-top                  : 5px;
+	color                       : #FFFFFF;
+	font-size                   : 20px !important;
+	outline                     : 0;
+	border                      : 0px;
+	background                  : #0099e8;
+	-webkit-border-radius       : 10px;
+	-moz-border-radius          : 10px;
+	border-radius               : 10px;
+	border-style                : solid;
+	border-width                : 1px;
+	border-color                : #0099e8;
+}
+.zdz_btn .zdz_btn_mini {
+	width                       : 95%;
+	line-height                 : 1.9;
+	font-size                   : 14px;
+	padding                     : 0 .75em;
+	display                     : inline-block;
+}
+button .zdz_btn,
+input  .zdz_btn {
+	width                       : 95%;
+	border-width                : 0;
+	outline                     : 0;
+	-webkit-appearance          : none;
+}
+button .zdz_btn:focus,
+input  .zdz_btn:focus {
+	outline                     : 0;
+}
+button .zdz_btn_inline,
+input  .zdz_btn_inline,
+button .zdz_btn_mini,
+input  .zdz_btn_mini {
+	width                       : auto;
+}
+/*gap between btn*/
+.zdz_btn + .zdz_btn {
+	margin-top                  : 15px;
+}
+.zdz_btn .zdz_btn_inline + .zdz_btn .zdz_btn_inline {
+	margin-top                  : auto;
+	margin-left                 : 15px;
+}
+.zdz_btn_area {
+	margin                      : 1.17647059em 15px 0.3em;
+}
+.zdz_btn_area.zdz_btn_area_inline {
+	display                     : -webkit-box;
+	display                     : -webkit-flex;
+	display                     : -ms-flexbox;
+	display                     : flex;
+}
+.zdz_btn_area.zdz_btn_area_inline .zdz_btn {
+	margin-top                  : auto;
+	margin-right                : 15px;
+	width                       : 100%;
+	-webkit-box-flex            : 1;
+	-webkit-flex                : 1;
+	    -ms-flex                : 1;
+		    flex                : 1;
+}
+.zdz_btn_area .zdz_btn_area_inline .zdz_btn:last-child {
+	margin-right               : 0;
+}
+.zdz_btn {
+	width                       : 95%;
+	position                    : relative;
+	display                     : block;
+	margin-left                 : auto;
+	margin-right                : auto;
+	padding-left                : 14px;
+	padding-right               : 14px;
+	box-sizing                  : border-box;
+	font-size                   : 18px;
+	text-align                  : center;
+	text-decoration             : none;
+	color                       : #FFFFFF;
+	line-height                 : 2.33333333;
+	border-radius               : 5px;
+	-webkit-tap-highlight-color : rgba(0, 0, 0, 0);
+	overflow                    : hidden;
+}
+.zdz_btn:after {
+	content                     : " ";
+	width                       : 200%;
+	height                      : 200%;
+	position                    : absolute;
+	top                         : 0;
+	left                        : 0;
+	border                      : 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-transform           : scale(0.5);
+	        transform           : scale(0.5);
+	-webkit-transform-origin    : 0 0;
+	        transform-origin    : 0 0;
+	box-sizing                  : border-box;
+	border-radius               : 10px;
+}
+.zdz_btn .zdz_btn_inline {
+	display                     : inline-block;
+}
+.zdz_btn_default {
+	background-color            : #F7F7F7;
+	color                       : #454545;
+}
+.zdz_btn_default:not(.zdz_btn_disabled):visited {
+	color                       : #454545;
+}
+.zdz_btn_default:not(.zdz_btn_disabled):active {
+	color                       : #A1A1A1;
+	background-color            : #DEDEDE;
+}
+.zdz_btn_primary {
+	background-color            : #0099e8;
+}
+.zdz_btn_primary:not(.zdz_btn_disabled):visited {
+	color                       : #FFFFFF;
+}
+.zdz_btn_primary:not(.zdz_btn_disabled):active {
+	color                       : rgba(255, 255, 255, 0.4);
+	background-color            : #039702;
+}
+.zdz_btn_warn {
+	background-color            : #EF4F4F;
+}
+.zdz_btn_warn:not(.zdz_btn_disabled):visited {
+	color                       : #FFFFFF;
+}
+.zdz_btn_warn:not(.zdz_btn_disabled):active {
+	color                       : rgba(255, 255, 255, 0.4);
+	background-color            : #C13E3E;
+}
+.zdz_btn_disabled {
+	color                       : rgba(255, 255, 255, 0.6);
+}
+.zdz_btn_disabled.zdz_btn_default {
+	color                       : #C9C9C9;
+}
+.zdz_btn_plain_primary {
+	color                       : #04BE02;
+	border                      : 1px solid #04BE02;
+}
+button .zdz_btn_plain_primary,
+input  .zdz_btn_plain_primary {
+	border-width                : 1px;
+	background-color            : transparent;
+}
+.zdz_btn_plain_primary:active {
+	border-color                : #0099e8;
+}
+.zdz_btn_plain_primary:after {
+	border-width                : 0;
+}
+.zdz_btn_plain_default {
+	color                       : #5A5A5A;
+	border                      : 1px solid #5A5A5A;
+}
+button .zdz_btn_plain_default,
+input  .zdz_btn_plain_default {
+	border-width                : 1px;
+	background-color            : transparent;
+}
+.zdz_btn_plain_default:after {
+	border-width                : 0;
+}
