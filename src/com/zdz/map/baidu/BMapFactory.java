@@ -32,7 +32,7 @@ public class BMapFactory implements ZDZUIFactory {
 	 *             创建失败
 	 */
 	@Override
-	public View createView(Context context, String classPath, String source) throws Exception {
+	public View createView(Context context, String classPath, String source) {
 		BaiduMapOptions options = new BaiduMapOptions();
 		if (source != null && source.length() > 0) {
 			double x = getDouble(source, "x:");

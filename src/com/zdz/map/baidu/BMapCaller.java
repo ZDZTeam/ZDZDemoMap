@@ -28,7 +28,7 @@ import com.baidu.mapapi.search.sug.SuggestionResult;
 import com.baidu.mapapi.search.sug.SuggestionResult.SuggestionInfo;
 import com.baidu.mapapi.search.sug.SuggestionSearch;
 import com.baidu.mapapi.search.sug.SuggestionSearchOption;
-import com.zdzsoft.lib.ui.caller.ZDZViewCaller;
+import com.zdzsoft.lib.ui.ZDZViewCaller;
 
 /**
  * 百度地图代理类

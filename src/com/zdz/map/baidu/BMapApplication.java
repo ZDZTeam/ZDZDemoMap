@@ -1,7 +1,7 @@
 package com.zdz.map.baidu;
 
 import com.baidu.mapapi.SDKInitializer;
-import com.zdzsoft.lib.ui.activity.ZDZApplication;
+import com.zdzsoft.lib.ui.ZDZApplication;
 
 /**
  * 百度地图初始化 Application
