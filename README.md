@@ -11,4 +11,4 @@ baidu.docx<br/>
 ZDZDemoMap.apk<br/>
 
 # 官网地址
-http://www.zdzsoft.com/case/baidu.htm<br/>
+http://www.zdzsoft.com/open/open.html<br/>
